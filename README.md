@@ -10,6 +10,7 @@
 ## Yandex.Disk
 
 - подключаемся к яндекс диску через либу [yadisk](https://github.com/ivknv/yadisk)
+- для асинхронной работы можно использовать [yadisk-async](https://github.com/ivknv/yadisk-async)
 - по токену есть доступ только к папке приложения
 - путь к корню папки приложения задается так: `app:/`
 
