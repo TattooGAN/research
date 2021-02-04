@@ -19,11 +19,9 @@ $ pip install yadisk
 ```
 
 ```python
-
 import yadisk
+
 y = yadisk.YaDisk(token="...")
-
 y.listdir("app:/")
-
 y.mkdir("app:/test")
 ```
