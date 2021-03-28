@@ -44,3 +44,9 @@ $ python scraper.py https://www.pinterest.ru/pin/19984792086693342/
 
 $ python scraper.py "татуировки эскизы"
 ```
+
+## StyleGAN2
+
+Для обучения использовался StyleGAN2 из https://github.com/lucidrains/stylegan2-pytorch
+
+![generated](generated.gif)
