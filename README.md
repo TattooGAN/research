@@ -1,4 +1,5 @@
-# Research
+![generated](generated.gif)
+
 
 ## Documents
 
@@ -49,4 +50,3 @@ $ python scraper.py "татуировки эскизы"
 
 Для обучения использовался StyleGAN2 из https://github.com/lucidrains/stylegan2-pytorch
 
-![generated](generated.gif)
