@@ -1,4 +1,5 @@
-# Research
+![generated](generated.gif)
+
 
 ## Documents
 
@@ -26,3 +27,26 @@ y = yadisk.YaDisk(token="...")
 y.listdir("app:/")
 y.mkdir("app:/test")
 ```
+
+## Pinterest scrapper
+
+Для запуска [скрепера](pinterest_scraper/scraper.py) нужно заполнить данные пользователя в [конфиге](pinterest_scraper/config.py).
+
+Для запуска:
+
+```bash
+$ python scraper.py <pinterest_url or search_title>
+```
+
+Примеры:
+
+```bash
+$ python scraper.py https://www.pinterest.ru/pin/19984792086693342/
+
+$ python scraper.py "татуировки эскизы"
+```
+
+## StyleGAN2
+
+Для обучения использовался StyleGAN2 из https://github.com/lucidrains/stylegan2-pytorch
+
